@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(45deg, #FFF7AD, #FFA9F9);
+}
+
+.navbar-image{
+    height: 200px;
+}
+
+.navbar-image img{
+    height: 100%;
+}
+
+.navbar-list li{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.navbar-list a{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.3em;
+}

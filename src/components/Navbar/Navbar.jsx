@@ -1,16 +1,21 @@
-import { Link } from "react-router-dom";
 import './Navbar.css';
-import logo from '../../assets/Images/FREELAS.png';
+import logo from '../../assets/Images/logoFreelas.png';
 
-const Navbar = () => {
-    return(
-        <nav>
-            <div>
-                <Link to={`/`}> 
-                    <img src={logo} alt="" />
-                </Link>
+function Navbar() {
+    return (
+        <nav className='navbar'>
+            <div className='navbar-image'>
+                <img src={logo} alt="" />
             </div>
-            <div></div>
+            <nav className='navbar-list'>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#">Cadastre-se</a>
+                        <a href="#">Sobre nós</a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     )
 }

@@ -1,0 +1,18 @@
+.main{
+    width: min(100%, 1100px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainDivUm{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.mainDivDois{
+    width: 100%;
+    height: 250px;
+    background-color: bisque;
+}
