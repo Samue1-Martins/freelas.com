@@ -1,3 +1,10 @@
+:root {
+    --gradient: linear-gradient(
+        to right,
+            rgb(255, 247, 173),
+            rgb(255, 169, 249))
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -6,6 +13,8 @@
     flex-direction: column;
     position: absolute;
     bottom: 0;
+    border-top: 3px solid #FFA9F9;
+    border-image: var(--gradient)1;
 }
 
 .footerSectionUm {
@@ -22,7 +31,7 @@
     align-items: center;
 }
 
-.footerSectionDois{
+.footerSectionDois {
     height: 100px;
     width: 100%;
     display: flex;
@@ -30,10 +39,10 @@
     align-items: center;
 }
 
-.footerSectionDois-image{
+.footerSectionDois-image {
     height: 300px;
 }
 
-.footerSectionDois-image img{
+.footerSectionDois-image img {
     height: 100%;
 }

@@ -11,8 +11,9 @@ function Navbar() {
                 <ul>
                     <li>
                         <a href="#">Home</a>
-                        <a href="#">Cadastre-se</a>
-                        <a href="#">Sobre nós</a>
+                        <a href="#">Login</a>
+                        <a href="#">Freelancers</a>
+                        <a href="#">Área do aluno</a>
                     </li>
                 </ul>
             </nav>
