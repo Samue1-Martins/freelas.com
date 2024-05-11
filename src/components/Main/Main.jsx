@@ -1,21 +1,13 @@
 import React from "react";
-import persons from '../../assets/Images/freelasPersons.png'
-import Forms from "../Forms/Forms";
 import './Main.css'
+import CardFotos from "../CardFotos/CardFotos";
 
-function Main(){
-    return(
+function Main() {
+    return (
         <main className="main">
             <div className="mainDivUm">
-                <div className="mainImg">
-                <img src={persons} alt="" />
-                </div>
-                <div>
-                    <Forms />
-                </div>
-            </div>
-            <div className="mainDivDois">
-                teste
+                <h1>Bem-vindos!</h1>
+                <CardFotos />
             </div>
         </main>
     )

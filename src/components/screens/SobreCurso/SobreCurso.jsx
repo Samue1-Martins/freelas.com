@@ -1,13 +1,13 @@
 import React from "react";
-import './Sobre.css'
+import './SobreCurso.css'
 
-function Sobre() {
+function SobreCurso() {
     return (
         <>
-            <div className="conteudoSobre">
-                <div className="sobre">
-                    <h4>O que é o Freelas.com?</h4>
-                    <div className="sobreText">
+            <div className="conteudoSobreCurso">
+                <div className="sobreCurso">
+                    <h4>Projeto Integrador</h4>
+                    <div className="sobreTextCurso">
                         <p>
                             Tendo em vista o cenário precário e competitivo do mercado de trabalho atual, é preciso proporcionar aos jovens ferramentas e oportunidades necessárias para se destacarem e prosperarem profissionalmente.
                         </p>
@@ -46,4 +46,4 @@ function Sobre() {
     )
 }
 
-export default Sobre
+export default SobreCurso

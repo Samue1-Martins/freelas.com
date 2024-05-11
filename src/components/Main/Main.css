@@ -1,33 +1,11 @@
 .main{
     width: min(100%, 1100px);
+    height: 81vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
-.mainDivUm{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.mainImg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 450px;
-}
-
-.mainImg img{
-    height: 100%;
-}
-.mainDivDois{
-    width: 100%;
-    height: 250px;
-    background-color: bisque;
-}
 
 .mainDivText h4{
     font-family: "Raleway", sans-serif;

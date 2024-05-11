@@ -1,0 +1,19 @@
+.loginDiv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 81vh;
+}
+
+.loginImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.loginImg img{
+    height: 100%;
+}

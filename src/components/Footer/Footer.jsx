@@ -15,9 +15,8 @@ function Footer() {
                 </nav>
                 <nav className="footerText">
                     <h4>Sobre o Freelas.com</h4>
-                    <Link to={".//screens/Sobre/"}>Quem somos</Link>
-                    <a href="./screens/Sobre/">Quem somos</a>
-                    <a href="#">Sobre o curso</a>
+                    <Link to="/sobre">O que é o Freelas.com</Link>
+                    <Link to="/sobre-curso">Sobre o Curso</Link>
                     <a href="#">Sobre nós</a>
                 </nav>
             </section>
