@@ -26,6 +26,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/sobre-curso" element={<SobreCurso />} />
+            <Route path="/quem-somos-nos" element={<CardFotos />} />
           </Routes>
         </>
         <Footer />

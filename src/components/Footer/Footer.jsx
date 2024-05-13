@@ -14,11 +14,16 @@ function Footer() {
                     <a href="">Linkedim</a>
                 </nav>
                 <nav className="footerText">
+                    <h4>Desenvolvedores Freelas.com</h4>
+                    <Link to="/quem-somos-nos">Quem somos nós?</Link>
+                </nav>
+                <nav className="footerText">
                     <h4>Sobre o Freelas.com</h4>
                     <Link to="/sobre">O que é o Freelas.com</Link>
                     <Link to="/sobre-curso">Sobre o Curso</Link>
                     <a href="#">Sobre nós</a>
                 </nav>
+                
             </section>
             <section className="footerSectionDois">
                 <div className="footerSectionDois-image">
