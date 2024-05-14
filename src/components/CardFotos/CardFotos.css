@@ -7,7 +7,7 @@
 }
 
 .cardFoto {
-    height: 500px;
+    height: 400px;
     width: 750px;
     display: flex;
     flex-direction: row;
@@ -40,11 +40,12 @@
 }
 
 .descrição {
-    height: 300px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 0px 20px;
+    padding: 40px 0px 0px 20px;
+    margin-bottom: 60px;
 }
 
 .descrição p {
@@ -55,7 +56,7 @@
 }
 
 .redes {
-    height: 50px;
+    height: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

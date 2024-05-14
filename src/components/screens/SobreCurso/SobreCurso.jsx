@@ -9,21 +9,26 @@ function SobreCurso() {
                     <h4>Projeto Integrador</h4>
                     <div className="sobreTextCurso">
                         <p>
-                            Tendo em vista o cenário precário e competitivo do mercado de trabalho atual, é preciso proporcionar aos jovens ferramentas e oportunidades necessárias para se destacarem e prosperarem profissionalmente.
+                            Os Projetos Integradores implicam atividades grupais e de classe, em relação às diferentes habilidades e conceitos que são aprendidos ao longo do curso.
                         </p>
                         <p>
                             <br />
                         </p>
                         <p>
-                            É com essa visão que surge o projeto "Frellas.com"!
+                            O Projeto Integrador (PI) está disciplinado no Projeto Pedagógico de cada Curso e
+                            caracteriza-se como uma atividade de promoção e desenvolvimento de iniciação científica
+                            que visa promover a interdisciplinaridade, ao estabelecer a integração dos conhecimentos
+                            desenvolvidos em uma disciplina, de forma articulada com as demais. É uma abordagem que
+                            se aproxima, de forma atualizada, dos problemas experienciados pelo mundo do trabalho na
+                            área de formação pretendida.
                         </p>
                         <p>
                             <br />
                         </p>
                         <p>
-                            Um projeto dedicado a capacitar jovens de 16 a 24 anos para enfrentarem os desafios do mercado de trabalho com confiança e habilidade.
-                            <br />
-                            "Frellas.com" reconhece a importância de não apenas de recrutar jovens talentosos, mas também de capacitá-los para as demandas do mercado de trabalho.
+                            <h4>
+                                E.E Maria da Piedade Fonseca
+                            </h4>
                         </p>
                         <p>
                             <br />
