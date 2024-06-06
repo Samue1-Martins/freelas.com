@@ -8,22 +8,22 @@ function Footer() {
         <footer className="footer">
             <section className="footerSectionUm">
                 <nav className="footerText">
-                    <h4>Fale conosco</h4>
-                    <a href="">Email</a>
-                    <a href="">Instagram</a>
-                    <a href="">Linkedim</a>
-                </nav>
-                <nav className="footerText">
                     <h4>Desenvolvedores Freelas.com</h4>
-                    <Link to="/quem-somos-nos">Quem somos nós?</Link>
+                    <Link to="/quem-somos-nos">
+                        <h6>
+                        Quem somos nós?
+                        </h6>
+                    </Link>
                 </nav>
                 <nav className="footerText">
-                    <h4>Sobre o Freelas.com</h4>
-                    <Link to="/sobre">O que é o Freelas.com</Link>
-                    <Link to="/sobre-curso">Sobre o Curso</Link>
-                    <a href="#">Sobre nós</a>
+                    <h4>Projeto integrador</h4>
+                    <Link to="/sobre-curso">
+                        <h6>
+                            Sobre o Curso
+                        </h6>
+                    </Link>
                 </nav>
-                
+
             </section>
             <section className="footerSectionDois">
                 <div className="footerSectionDois-image">

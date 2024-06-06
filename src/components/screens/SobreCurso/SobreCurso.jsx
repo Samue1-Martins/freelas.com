@@ -25,25 +25,6 @@ function SobreCurso() {
                         <p>
                             <br />
                         </p>
-                        <p>
-                            <h4>
-                                E.E Maria da Piedade Fonseca
-                            </h4>
-                        </p>
-                        <p>
-                            <br />
-                        </p>
-                        <p>
-                            Através de parcerias com empresas locais, instituições de ensino e especialistas do setor, "Frellas.com" busca criar uma plataforma online de aprendizagem, onde os jovens podem desenvolver habilidades essenciais para o desenvolvimento profissional.
-                            <br />
-                            Com a identificação das habilidades até a realização de workshops e cursos práticos, este projeto visa proporcionar uma jornada de aprendizagem.
-                        </p>
-                        <p>
-                            <br />
-                        </p>
-                        <p>
-                            Além disso, "Frellas.com" se compromete em tornar o processo de recrutamento mais inclusivo e acessível, garantindo oportunidades para jovens de diversas origens. Nós acreditamos que a diversidade é fundamental para impulsionar a inovação e o crescimento, e estamos focados em criar um ambiente onde todos possam alcançar seu potencial.
-                        </p>
                     </div>
                 </div>
             </div>

@@ -1,16 +1,22 @@
+.tela{
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: min(100%, 1100px);
+    margin: 0 auto;
+}
+
 .conteudoSobre{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 81vh;
-    width: min(100%, 1100px);
-    margin: 0 auto;
+
 }
 
 .sobre{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     display: flex;
     width: 800px;
@@ -21,10 +27,21 @@
     font-family: "Raleway", sans-serif;
     font-size: 1.5em;
     font-weight: 400;
+    color: #0CC0DF;
 }
 
 .sobreText p{
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;
+}
+
+.sobreFoto {
+    height: 400px;
+    /* width: 300px;*/
+}
+
+
+.sobreFoto img{
+    height: 100%;
 }

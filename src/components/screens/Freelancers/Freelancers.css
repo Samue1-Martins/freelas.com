@@ -1,0 +1,9 @@
+.cardTrabalhoTela{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

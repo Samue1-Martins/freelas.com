@@ -1,12 +1,13 @@
 import React from "react";
+import trabalho from '../../../assets/Images/freelasTrabalho.png'
 import './Sobre.css'
 
 function Sobre() {
     return (
-        <>
+        <div className="tela">
             <div className="conteudoSobre">
                 <div className="sobre">
-                    <h4>O que é o Freelas.com?</h4>
+                    <h4><b>O que é o Freelas.com?</b></h4>
                     <div className="sobreText">
                         <p>
                             Tendo em vista o cenário precário e competitivo do mercado de trabalho atual, é preciso proporcionar aos jovens ferramentas e oportunidades necessárias para se destacarem e prosperarem profissionalmente.
@@ -41,8 +42,11 @@ function Sobre() {
                         </p>
                     </div>
                 </div>
+                <div className="sobreFoto">
+                    <img src={trabalho} alt="" />
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -1,11 +1,12 @@
 import React from "react";
 import './Main.css'
+import Sobre from "../screens/Sobre/Sobre.jsx";
 
 function Main() {
     return (
         <main className="main">
             <div className="mainDivUm">
-                <h1>Bem-vindos!</h1>
+                <Sobre />
             </div>
         </main>
     )

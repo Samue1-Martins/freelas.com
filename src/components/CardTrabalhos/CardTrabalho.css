@@ -1,0 +1,47 @@
+.card{
+    height: 300px;
+    width: 700px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px -13px #000000;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.cardLogo{
+    height: 250px;
+    background-color: aqua;
+    width: 250px;
+    
+}
+
+.cardDescrição{
+    width: 100%;
+    height: 300px;
+}
+
+.cardDescriçãoEmpresa{
+    height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.cardDescriçãoVaga{
+    padding-top: 30px;
+    height: 150px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+.cardDescriçãoContato{
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+
+}
