@@ -1,4 +1,4 @@
-.tela{
+.tela2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,12 +29,13 @@
 
 .foto img {
     height: 100%;
+    width: 300px;
     border-radius: 10px;
     object-fit: cover;
 }
 
 .titulo {
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;

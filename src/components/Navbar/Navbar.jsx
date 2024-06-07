@@ -12,9 +12,9 @@ function Navbar() {
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
-                        <Link to="/login">Login</Link>
+                        {/* <Link to="/login">Login</Link> */}
                         <Link to="/freelancers">Freelancers</Link>
-                        <a href="#">Área do aluno</a>
+                        <Link to="/area-aluno">Área do Aluno</Link>
                     </li>
                 </ul>
             </nav>

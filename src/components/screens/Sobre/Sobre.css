@@ -4,6 +4,7 @@
     margin-bottom: 20px;
     width: min(100%, 1100px);
     margin: 0 auto;
+    flex-direction: column;
 }
 
 .conteudoSobre{

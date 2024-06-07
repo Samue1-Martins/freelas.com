@@ -10,7 +10,7 @@ import filipe from '../../assets/Images/filipe.jpg'
 function CardFotos() {
     return (
         <>
-            <div className="tela">
+            <div className="tela2">
                 <div className="cardFoto">
                     <div className="foto">
                         <img src={samuel} alt="" />

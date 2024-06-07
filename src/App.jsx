@@ -13,6 +13,7 @@ import Login from './components/screens/Login/Login'
 import Sobre from './components/screens/Sobre/Sobre'
 import SobreCurso from './components/screens/SobreCurso/SobreCurso'
 import Freelancers from './components/screens/Freelancers/Freelancers'
+import AreaAluno from './components/screens/AreaAluno/AreaAluno'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
             <Route path="/sobre-curso" element={<SobreCurso />} />
             <Route path="/quem-somos-nos" element={<CardFotos />} />
             <Route path='/freelancers' element={<Freelancers />}/> 
+            <Route path='/area-aluno' element={<AreaAluno/>}/>
           </Routes>
         </>
         <Footer />

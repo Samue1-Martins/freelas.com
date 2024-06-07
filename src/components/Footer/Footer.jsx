@@ -11,7 +11,7 @@ function Footer() {
                     <h4>Desenvolvedores Freelas.com</h4>
                     <Link to="/quem-somos-nos">
                         <h6>
-                        Quem somos nós?
+                        Quem somos nós
                         </h6>
                     </Link>
                 </nav>
@@ -19,7 +19,7 @@ function Footer() {
                     <h4>Projeto integrador</h4>
                     <Link to="/sobre-curso">
                         <h6>
-                            Sobre o Curso
+                            Sobre
                         </h6>
                     </Link>
                 </nav>

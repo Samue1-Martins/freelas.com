@@ -1,27 +1,28 @@
 import React from "react";
 import './CardTrabalho.css'
+import logoCurso from '../../assets/Images/logoCurso.png'
 
 function cardTrabalho() {
     return (
-        <div>
-            <div className="card">
+        <>
+        <div className="card">
                 <div className="cardLogo">
-                    <h5>logo impresa</h5>
+                    <img src={logoCurso} alt="" />
                 </div>
                 <div className="cardDescrição">
                     <div className="cardDescriçãoEmpresa">
-                        <h1>Itau</h1>
+                        <h3>Itau</h3>
                     </div>
                     <div className="cardDescriçãoVaga">
                         <p>Você será responsável em executar atividades de desenvolvimento de sistemas para Conta Digital e Meios de Pagamentos.
-                            Atuará diretamente com várias áreas de negócios, contribuindo para a análise e implementação de novos produtos e soluções.</p>
+                            </p>
                     </div>
                     <div className="cardDescriçãoContato">
                         <h5>(31) xxxxx-xxxx</h5>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
