@@ -7,9 +7,6 @@ function Freelancers(){
     return(
         <div className="cardTrabalhoTela">
             <CardTrabalho />
-            <CardTrabalho />
-            <CardTrabalho />
-            <CardTrabalho />
         </div>
     )
 }

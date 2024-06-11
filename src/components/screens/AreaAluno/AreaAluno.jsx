@@ -1,6 +1,6 @@
 import React from "react";
 import './AreaAluno.css'
-import CardTrabalho from "../../CardTrabalhos/CardTrabalho";
+import CardCurso from "../../CardCurso/CardCurso";
 
 
 function AreaAluno() {
@@ -10,25 +10,37 @@ function AreaAluno() {
                 <h3>Área do aluno</h3>
                 <div>
                     <p>
-                        O Projeto Integrador (PI) está disciplinado no Projeto Pedagógico de cada Curso e
-                        caracteriza-se como uma atividade de promoção e desenvolvimento de iniciação científica
-                        que visa promover a interdisciplinaridade, ao estabelecer a integração dos conhecimentos
-                        desenvolvidos em uma disciplina, de forma articulada com as demais. É uma abordagem que
-                        se aproxima, de forma atualizada, dos problemas experienciados pelo mundo do trabalho na
-                        área de formação pretendida.
+                        Esta área é dedicada àqueles que buscam aprimorar suas habilidades interpessoais e profissionais, bem como suas competências técnicas e desenvolvimento em mídias sociais.
+                        <br />
+                        <br />
+                        A seguir, apresentaremos os cursos disponíveis em NOSSO PROJETO, que abrangem uma ampla gama de tópicos, incluindo comunicação eficaz, liderança, gerenciamento de projetos, marketing digital, design gráfico, e estratégias de mídia social. 
+                        <br />
+                        <br />
+                        Cada curso foi cuidadosamente elaborado por especialistas em suas respectivas áreas, garantindo que você receba um conteúdo de alta qualidade e relevante para o mercado atual.
+                        <br />
+                        <br />
+                        Ao concluir cada curso, forneceremos um certificado de conclusão, que poderá ser utilizado para evidenciar suas habilidades e conquistas às empresas de seu interesse, aumentando suas chances de sucesso em processos seletivos e de desenvolvimento de carreira.
+                        <br />
+                        <br />
+                        E como forma de aumentar seus conhecimentos além da gama de cursos que oferecemos, indicamos também acessar os seguintes sites: 
+                        <a href="https://www.ev.org.br/" target="_blank"> Fundação Bradesco</a>,
+                        <a href="https://veduca.org/" target="_blank"> VEduca</a>,
+                        <a href="https://cresca.withgoogle.com/intl/pt-br/certificates/" target="_blank"> Google Ateliê Digital</a>, 
+                        <a href="https://sebrae.com.br/sites/PortalSebrae/cursosonline" target="_blank"> Sebrae</a>,  
+                        <a href="https://www.coursera.org/courses" target="_blank"> Coursera</a> e
+                        <a href="https://educacao-executiva.fgv.br/cursos/gratuitos" target="_blank"> FGV</a>.
+                        <br />
+                        <br />
+                        Mantenha o foco e bons estudos!!
+                        <br />
+                        Abraços da Equipe "Freelas".
                     </p>
                 </div>
             </div>
             <div className="area2">
                 <h3>Cursos</h3>
                 <div>
-                    <CardTrabalho />
-                </div>
-                <div>
-                    <CardTrabalho />
-                </div>
-                <div>
-                    <CardTrabalho />
+                    <CardCurso />
                 </div>
             </div>
         </div>
