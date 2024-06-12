@@ -1,11 +1,11 @@
-.tela{
+/* .tela{
     flex: 1;
     padding: 20px;
     margin-bottom: 20px;
     width: min(100%, 1100px);
     margin: 0 auto;
     flex-direction: column;
-}
+} */
 
 .conteudoSobre{
     display: flex;
@@ -20,7 +20,7 @@
     align-items: start;
     flex-direction: column;
     display: flex;
-    width: 800px;
+    width: 600px;
     gap: 20px;
 }
 
@@ -31,10 +31,14 @@
     color: #0CC0DF;
 }
 
+.sobreText {
+    font-weight: 400;
+    width: 100%;
+}
+
 .sobreText p{
     font-family: "Raleway", sans-serif;
     font-size: 1em;
-    font-weight: 400;
 }
 
 .sobreFoto {
@@ -45,4 +49,39 @@
 
 .sobreFoto img{
     height: 100%;
+}
+
+@media screen and (max-width: 1200px){
+
+    .conteudoSobre{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+
+    .sobre{
+        width: 100%;
+        gap: 20px;
+    }
+
+    .tela{
+        margin-bottom: 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 550px){
+
+    .sobre{
+        /* width: 80%; */
+        gap: 20px;
+    }
+
+    .sobreFoto img{
+        height: 80%;
+    }
+
 }

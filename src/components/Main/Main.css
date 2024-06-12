@@ -16,3 +16,11 @@
     color: black;
 }
 
+@media screen and (max-width: 1200px){
+
+    .main{
+        width: min(70%, 1100px);
+    }
+
+}
+

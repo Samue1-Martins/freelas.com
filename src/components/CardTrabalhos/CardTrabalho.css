@@ -1,6 +1,5 @@
-.card{
-    height: 100px;
-    width: 400px;
+.cardTrabalho {
+    width: 650px;
     background-color: blue;
     display: flex;
     align-items: center;
@@ -13,7 +12,7 @@
     gap: 15px;
 }
 
-.cardLogo{
+.cardLogoTrabalho {
     height: 70px;
     width: 150px;
     display: flex;
@@ -21,28 +20,37 @@
     align-items: center;
 }
 
-.cardLogo img{
+.cardLogoTrabalho img {
     height: 100%;
 }
 
-.cardDescrição{
+.cardDescrição {
     width: 100%;
 }
 
-.cardDescriçãoEmpresa{
+.cardDescriçãoEmpresaTrabalho {
     text-align: center;
-    border-bottom: 1px solid #000000;
     padding: 7px 0px 0px 0px;
+    height: 30px;
 }
 
-.cardDescriçãoVaga{
+.cardDescriçãoVagaTrabalho {
     padding: 7px 0px 7px 0px;
     text-align: center;
+    border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
 }
 
-.cardDescriçãoContato{
+.cardDescriçãoContatoTrabalho {
     height: 30px;
     text-align: center;
     padding: 7px 0px 7px 0px;
+}
+
+.cardTrabalho {
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardTrabalho:hover {
+    transform: scale(1.1);
 }

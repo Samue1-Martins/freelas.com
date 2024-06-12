@@ -21,11 +21,11 @@ function CardFotos() {
                         </div>
                         <div className="descrição">
                             <p>
-                                Um jovem desenvolvedor apaixonado por aprender novas tecnologias.
+                                Sou um jovem desenvolvedor apaixonado por aprender novas tecnologias.
                                 <br />
-                                Compartilho essa paixão por filmar, fotografar e andar de skate.
+                                Compartilho esta paixão por filmar, fotografar e andar de skate.
                                 <br />
-                                Misturando todos esses hobbies no meu pote de imaginação, dando sempre como resultado um vídeo novo no meu canal do Youtube.
+                                Misturando todos estes hobbies no meu pote de imaginação, dando sempre como resultado um vídeo novo no meu canal do Youtube.
                                 <br />
                                 Quando me sinto criativo, deixo transbordar o design gráfico.
                             </p>

@@ -5,7 +5,7 @@ import CardCurso from "../../CardCurso/CardCurso";
 
 function AreaAluno() {
     return (
-        <div className="tela">
+        <div className="telaAluno">
             <div className="area1">
                 <h3>Área do aluno</h3>
                 <div>

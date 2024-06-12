@@ -10,6 +10,11 @@
     padding: 15px;
     margin-top: 25px;
     gap: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardCurso:hover {
+    transform: scale(1.1);
 }
 
 .cardLogo {
@@ -40,7 +45,8 @@
 
 .cardDescriçãoVaga {
     padding: 7px 0px 7px 0px;
-    text-align: center;
+    text-align: center;    
+    border-bottom: 1px solid #000000;
 }
 
 .cardDescriçãoContato {

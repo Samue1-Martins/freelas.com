@@ -5,6 +5,7 @@
     flex-direction: column;
     flex: 1;
     margin-bottom: 30px;
+    gap: 20px;
 }
 
 .cardFoto {
@@ -18,7 +19,12 @@
     border-radius: 20px;
     padding: 15px;
     margin-top: 25px;
-    gap: 15px;
+    gap: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardFoto:hover {
+    transform: scale(1.1);
 }
 
 .foto{
@@ -54,7 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px 0px 20px;
+    padding: 50px 0px 0px 20px;
     margin-bottom: 60px;
 }
 

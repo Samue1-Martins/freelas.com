@@ -27,3 +27,17 @@
     color: #ffffff;
     font-size: 1.3em;
 }
+
+@media screen and (max-width: 550px){
+
+    .navbar{
+        height: 100px;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .navbar-image{
+        height: 80px;
+    }
+    
+}
