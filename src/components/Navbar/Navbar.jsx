@@ -11,10 +11,10 @@ function Navbar() {
             <nav className='navbar-list'>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/freelas.com">Home</Link>
                         {/* <Link to="/login">Login</Link> */}
-                        <Link to="/freelancers">Freelancers</Link>
-                        <Link to="/area-aluno">Área do Aluno</Link>
+                        <Link to="/freelas.com/freelancers">Freelancers</Link>
+                        <Link to="/freelas.com/area-aluno">Área do Aluno</Link>
                     </li>
                 </ul>
             </nav>

@@ -9,7 +9,7 @@ function Footer() {
             <section className="footerSectionUm">
                 <nav className="footerText">
                     <h4>Desenvolvedores Freelas.com</h4>
-                    <Link to="/quem-somos-nos">
+                    <Link to="/freelas.com/quem-somos-nos">
                         <h6>
                         Quem somos nós
                         </h6>
@@ -17,7 +17,7 @@ function Footer() {
                 </nav>
                 <nav className="footerText">
                     <h4>Projeto integrador</h4>
-                    <Link to="/sobre-curso">
+                    <Link to="/freelas.com/sobre-curso">
                         <h6>
                             Sobre
                         </h6>

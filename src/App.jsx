@@ -24,13 +24,13 @@ function App() {
         <Navbar />
         <>
           <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/sobre-curso" element={<SobreCurso />} />
-            <Route path="/quem-somos-nos" element={<CardFotos />} />
-            <Route path='/freelancers' element={<Freelancers />}/> 
-            <Route path='/area-aluno' element={<AreaAluno/>}/>
+            <Route path="/freelas.com" element={<Main />} />
+            {/* <Route path="/login" element={<Login />} /> */}
+            <Route path="/freelas.com/sobre" element={<Sobre />} />
+            <Route path="/freelas.com/sobre-curso" element={<SobreCurso />} />
+            <Route path="/freelas.com/quem-somos-nos" element={<CardFotos />} />
+            <Route path="/freelas.com/freelancers" element={<Freelancers />}/> 
+            <Route path="/freelas.com/area-aluno" element={<AreaAluno/>}/>
           </Routes>
         </>
         <Footer />
