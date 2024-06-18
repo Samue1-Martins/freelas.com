@@ -71,7 +71,6 @@ function CardFotos() {
                             </a>
                         </div>
                     </div>
-
                 </div>
 
                 {/* Card Fernanda */}

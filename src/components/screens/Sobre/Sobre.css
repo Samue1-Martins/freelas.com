@@ -1,17 +1,8 @@
-/* .tela{
-    flex: 1;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: min(100%, 1100px);
-    margin: 0 auto;
-    flex-direction: column;
-} */
-
 .conteudoSobre{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 50px;
 }
 
 .sobre{
@@ -43,9 +34,7 @@
 
 .sobreFoto {
     height: 400px;
-    /* width: 300px;*/
 }
-
 
 .sobreFoto img{
     height: 100%;
@@ -56,7 +45,6 @@
     .conteudoSobre{
         flex-direction: column;
     }
-
 }
 
 @media screen and (max-width: 750px){
@@ -69,19 +57,15 @@
     .tela{
         margin-bottom: 5px;
     }
-
-
 }
 
 @media screen and (max-width: 550px){
 
     .sobre{
-        /* width: 80%; */
         gap: 20px;
     }
 
     .sobreFoto img{
         height: 80%;
     }
-
 }

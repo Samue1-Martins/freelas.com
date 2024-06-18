@@ -9,7 +9,6 @@
 }
 
 .cardFoto {
-    height: 400px;
     width: 800px;
     display: flex;
     align-items: center;
@@ -56,12 +55,11 @@
 }
 
 .descrição {
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px 0px 20px;
-    margin-bottom: 60px;
+    padding: 20px 0px 0px 20px;
+    margin-bottom: 20px;
 }
 
 .descrição p {
@@ -78,9 +76,38 @@
     align-items: center;
     border-top: 1px solid #000000;
     padding-top: 25px;
+    margin: 0px 0px 25px 0px;
 }
 
 .redes img {
     height: 30px;
     color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+
+    .tela2{
+        padding: 0px 40px 0px 40px;
+    }
+    .cardFoto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+
+    .foto{
+        height: 90%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
 }

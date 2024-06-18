@@ -53,14 +53,6 @@
     background: linear-gradient(45deg, #FFF7AD, #FFA9F9);
 }
 
-.footerSectionDois-image {
-    height: 80px;
-}
-
-.footerSectionDois-image img {
-    height: 100%;
-}
-
 .footerTextDois{
     font-family: "Raleway", sans-serif;
     font-size: 1em;
@@ -76,4 +68,13 @@ h4, h6{
 
 h6{
     color: #0CC0DF;
+}
+
+@media screen and (max-width: 550px){
+
+    .footerSectionUm{
+        flex-direction: column;
+        height: 100px;
+    }
+
 }

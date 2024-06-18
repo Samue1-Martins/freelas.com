@@ -9,6 +9,7 @@
     border-radius: 20px;
     padding: 15px;
     margin-top: 25px;
+    margin-bottom: 25px;
     gap: 15px;
     transition: transform 0.3s ease-in-out;
 }
@@ -37,7 +38,6 @@
 .cardDescriçãoEmpresa {
     text-align: center;
     border-bottom: 1px solid #000000;
-    height: 25px;
     padding: 7px 0px 0px 0px;
     margin: 0px 0px 5px 0px;
     gap: 5px;
@@ -60,4 +60,13 @@ h5 {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;
+}
+
+@media screen and (max-width: 670px) {
+
+    .cardCurso {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 40px 0px 40px;
+    }
 }

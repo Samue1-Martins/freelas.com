@@ -26,9 +26,6 @@ function Footer() {
 
             </section>
             <section className="footerSectionDois">
-                <div className="footerSectionDois-image">
-                    <img src={logo} alt="" />
-                </div>
                 <div className="footerTextDois">
                     <p>
                         ₢Todos os direitos reservados ❤️

@@ -22,10 +22,7 @@
 
 .cardLogoTrabalho img {
     height: 100%;
-}
-
-.cardDescrição {
-    width: 100%;
+    border-radius: 10px;
 }
 
 .cardDescriçãoEmpresaTrabalho {
@@ -53,4 +50,19 @@
 
 .cardTrabalho:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 750px) {
+
+    .cardTrabalho {
+        flex-direction: column;
+        width: 100%;
+        padding: 40px 0px 40px 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cardDescriçãoTrabalho {
+        padding: 0px 25px 0px 25px;
+    }
 }

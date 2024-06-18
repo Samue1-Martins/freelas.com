@@ -22,7 +22,7 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <Navbar />
-        <>
+        <div className='main-content'>
           <Routes>
             <Route path="/freelas.com" element={<Main />} />
             {/* <Route path="/login" element={<Login />} /> */}
@@ -32,7 +32,7 @@ function App() {
             <Route path="/freelas.com/freelancers" element={<Freelancers />}/> 
             <Route path="/freelas.com/area-aluno" element={<AreaAluno/>}/>
           </Routes>
-        </>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>
