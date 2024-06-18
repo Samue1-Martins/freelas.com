@@ -55,11 +55,11 @@ function CardFotos() {
                         </div>
                         <div className="descrição">
                             <p>
-                                A young developer avid to learn new technologies.
+                                Me chamo Fernanda Santana e amo aprender coisas novas. Atualmente, estou cursando T.I. e Radiologia.
                                 <br />
-                                I share this passion with filming, photography and skateboarding. Mixing all those hobbies in my pot of imagination, giving always as result a new video on my Youtube channel.
+                                Sou super extrovertida e muito curiosa, então sempre estou aprendendo um pouco de tudo. Música é minha terapia e também adoro jogar jogos no geral
                                 <br />
-                                When I feel creative, I let it overflow with graphic design.
+                                Nos meus momentos livres, gosto de malhar e estar com amigos. Estou sempre em busca de novas experiências e desafios.
                             </p>
                         </div>
                         <div className="redes">
@@ -73,7 +73,7 @@ function CardFotos() {
                     </div>
                 </div>
 
-                {/* Card Fernanda */}
+                {/* Card Filipe */}
                 <div className="cardFoto">
                     <div className="foto">
                         <img src={filipe} alt="" />
@@ -84,11 +84,11 @@ function CardFotos() {
                         </div>
                         <div className="descrição">
                             <p>
-                                A young developer avid to learn new technologies.
+                            Sou um jovem dedicado, sempre em busca de novos conhecimentos e oportunidades para crescer. 
                                 <br />
-                                I share this passion with filming, photography and skateboarding. Mixing all those hobbies in my pot of imagination, giving always as result a new video on my Youtube channel.
+                                Encaro desafios com determinação, vendo cada obstáculo como uma chance de aprendizado. 
                                 <br />
-                                When I feel creative, I let it overflow with graphic design.
+                                Valorizo o desenvolvimento contínuo e me esforço para transformar dificuldades em conquistas, sempre buscando meu aprimoramento pessoal e profissional.
                             </p>
                         </div>
                         <div className="redes">

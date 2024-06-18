@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '../../assets/Images/logoFreelas.png';
 import './Footer.css';
 import { Link } from "react-router-dom";
 
@@ -11,7 +10,7 @@ function Footer() {
                     <h4>Desenvolvedores Freelas.com</h4>
                     <Link to="/freelas.com/quem-somos-nos">
                         <h6>
-                        Quem somos nós
+                            Quem somos nós
                         </h6>
                     </Link>
                 </nav>

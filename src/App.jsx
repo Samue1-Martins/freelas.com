@@ -29,8 +29,8 @@ function App() {
             <Route path="/freelas.com/sobre" element={<Sobre />} />
             <Route path="/freelas.com/sobre-curso" element={<SobreCurso />} />
             <Route path="/freelas.com/quem-somos-nos" element={<CardFotos />} />
-            <Route path="/freelas.com/freelancers" element={<Freelancers />}/> 
-            <Route path="/freelas.com/area-aluno" element={<AreaAluno/>}/>
+            <Route path="/freelas.com/freelancers" element={<Freelancers />} />
+            <Route path="/freelas.com/area-aluno" element={<AreaAluno />} />
           </Routes>
         </div>
         <Footer />

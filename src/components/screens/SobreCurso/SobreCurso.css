@@ -1,4 +1,4 @@
-.conteudoSobreCurso{
+.conteudoSobreCurso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     padding: 20px;
 }
 
-.sobreCurso{
+.sobreCurso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,13 +18,13 @@
     gap: 20px;
 }
 
-.sobreCurso h4{
+.sobreCurso h4 {
     font-family: "Raleway", sans-serif;
     font-size: 1.5em;
     font-weight: 400;
 }
 
-.sobreTextCurso p{
+.sobreTextCurso p {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;

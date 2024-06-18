@@ -1,6 +1,5 @@
 :root {
-    --gradient: linear-gradient(
-        to right,
+    --gradient: linear-gradient(to right,
             rgb(255, 247, 173),
             rgb(255, 169, 249))
 }
@@ -32,13 +31,13 @@
     align-items: center;
 }
 
-.footerText h4{
+.footerText h4 {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;
 }
 
-.footerText p{
+.footerText p {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;
@@ -53,26 +52,27 @@
     background: linear-gradient(45deg, #FFF7AD, #FFA9F9);
 }
 
-.footerTextDois{
+.footerTextDois {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;
     color: #ffffff;
 }
 
-h4, h6{
+h4,
+h6 {
     font-family: "Raleway", sans-serif;
     font-size: 1em;
     font-weight: 400;
 }
 
-h6{
+h6 {
     color: #0CC0DF;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
 
-    .footerSectionUm{
+    .footerSectionUm {
         flex-direction: column;
         height: 100px;
     }
