@@ -1,8 +1,47 @@
-# React + Vite
+   <img src = "https://github.com/Samue1-Martins/freelas.com/assets/125680404/e7744ca9-91b2-4357-828c-26d4e5536f2c" height = '200px'>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# FREELAS.com Projeto Integrador
 
-Currently, two official plugins are available:
+  Um site desenvolvido para a apresentação do trabalho final de curso técnico em informática.<br>
+  Ele utiliza as tecnologias HTML, CSS & React.
+  
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - Html <br>
+  - CSS <br>
+  - React <br>
+  
+## Funcionalidades Principais
+  - Carregamento Dinâmico: O site é carregado de forma dinâmica graças ao react.<br><br>
+  - Exibição em Destaque: Quando o mouse e passado pelos cards, eles são exibidos em destaque.<br><br>
+  - Estilização Responsiva: A página utiliza CSS para garantir uma experiência agradável em diferentes dispositivos.<br><br>
+  
+## Link do site hospedado 
+
+Link (https://samue1-martins.github.io/freelas.com/) <br>
+
+## Rodando Projeto localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/Samue1-Martins/freelas.com.git
+```
+
+Entre na pasta diretório do projeto
+
+```bash
+  cd FREELAS.COM
+```
+
+Instale todas as dependências
+
+```bash
+npm install
+```
+
+Inicie o arquivo React
+
+```bash
+  npm run dev
+```
